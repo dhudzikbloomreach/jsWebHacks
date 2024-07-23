@@ -22,11 +22,11 @@
 
     Private instance docs: https://gitlab.exponea.com/e2e/e2e-tests/-/blob/master/docs/PRIVATE-INSTANCES.md
 
-        TEST_ENV_USERNAME
-        TEST_ENV_PASSWORD
-        PRIVATE_INSTANCE
-        PRIVATE_INSTANCE_API
-        PRIVATE_INSTANCE_CDN
+        PORTAL_APP_USER
+        PORTAL_APP_PASSWORD
+        PORTAL_APP_URL
+        PORTAL_API_URL
+        PORTAL_CDN_URL
  */
 
 export enum E2EPipelineVariableType {
@@ -34,11 +34,11 @@ export enum E2EPipelineVariableType {
     Jobs = 'JOBS',
     Modules = 'MODULES',
     Spec = 'SPEC',
-    PrivateInstanceAppUrl = 'PRIVATE_INSTANCE',
-    PrivateInstanceApiUrl = 'PRIVATE_INSTANCE_API',
-    PrivateInstanceCdnUrl = 'PRIVATE_INSTANCE_CDN',
-    PrivateInstanceUsername = 'TEST_ENV_USERNAME',
-    PrivateInstancePassword = 'TEST_ENV_PASSWORD',
+    PrivateInstanceAppUrl = 'PORTAL_APP_URL',
+    PrivateInstanceApiUrl = 'PORTAL_API_URL',
+    PrivateInstanceCdnUrl = 'PORTAL_CDN_URL',
+    PrivateInstanceUsername = 'PORTAL_APP_USER',
+    PrivateInstancePassword = 'PORTAL_APP_PASSWORD',
 }
 
 // These variables may have multiple values
